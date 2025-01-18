@@ -3,41 +3,29 @@ import React from 'react';
 const PortfolioSection = () => {
     const projects = [
       {
-        title: "Project 1",
-        image: "path_to_image_1.jpg", 
+        title: "JourneySync",
+        image: "C:\Users\marcu\OneDrive\Pictures\Saved Pictures\JourneySync.jpg", 
         deployedUrl: "https://project1.com",
-        githubUrl: "https://github.com/yourusername/project1",
+        githubUrl: "https://github.com/MadamLoki/tech-titan-travel-app",
       },
       {
-        title: "Project 2",
-        image: "path_to_image_2.jpg", 
+        title: "ReadMe Generator",
+        image: "https://www.istockphoto.com/photo/man-reading-the-bible-gm1456438531-491472344?searchscope=image%2Cfilm", 
         deployedUrl: "https://project2.com",
-        githubUrl: "https://github.com/yourusername/project2",
+        githubUrl: "https://github.com/AOF-O5-1/AppOverviewTemplate",
       },
       {
-        title: "Project 3",
-        image: "path_to_image_3.jpg", 
+        title: "Employee Database SQL",
+        image: "React Portfolio\src\images\database.jpg", 
         deployedUrl: "https://project3.com",
-        githubUrl: "https://github.com/yourusername/project3",
+        githubUrl: "https://github.com/AOF-O5-1/Employee-Database",
       },
       {
-        title: "Project 4",
-        image: "path_to_image_4.jpg", 
-        deployedUrl: "https://project4.com",
-        githubUrl: "https://github.com/yourusername/project4",
-      },
-      {
-        title: "Project 5",
-        image: "path_to_image_5.jpg", 
-        deployedUrl: "https://project5.com",
-        githubUrl: "https://github.com/yourusername/project5",
-      },
-      {
-        title: "Project 6",
-        image: "path_to_image_6.jpg", 
-        deployedUrl: "https://project6.com",
-        githubUrl: "https://github.com/yourusername/project6",
-      },
+        title: "Aspire: Career Aptitude Explorer",
+        image: "React Portfolio\src\images\aspire.jpg", 
+        deployedUrl: "https://career-aptitude-explorer-api.onrender.com/",
+        githubUrl: "https://github.com/MadamLoki/career-aptitude-explorer",
+      }
     ];
   
     return (
@@ -49,8 +37,8 @@ const PortfolioSection = () => {
               <img src={project.image} alt={project.title} className="portfolio-image" />
               <h3>{project.title}</h3>
               <div className="portfolio-links">
-                <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer">View App</a>
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href={project.deployedUrl} target="_blank" rel="noopener noreferrer">View App </a>
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">   GitHub Repo</a>
               </div>
             </div>
           ))}
