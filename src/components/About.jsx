@@ -5,7 +5,7 @@ const About = () => (
     <h2>About Me</h2>
     <div className="about-content">
       <img
-        src="public\images\Avatar3.jpg" 
+        src="/images/Avatar3.jpg" 
         alt="Ade Fajemisin"
         className="avatar"
       />
