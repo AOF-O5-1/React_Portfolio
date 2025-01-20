@@ -12,27 +12,32 @@ html {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'sans-serif';
   line-height: 1.6;
-  background-color: #121212; /* Dark background */
-  color: #f5f5f5; /* Light text */
-  font-weight: 400;
+  background-color: #f9f5f5; /* Dark background */
+  color: #000000; /* Light text */
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
 }
 
 h1, h2, h3 {
-  font-weight: 700;
-  color: #f0f1f3; /* Accent red color */
+  font-weight: 600;
+  color: #000000; 
+  font-style: italic;
+  font-family: 'sans-serif';
+  margin-right: 50px;
 }
 
 a {
   text-decoration: none;
-  color: #f3eeef;
+  color: #000000;
 }
 
 a:hover,
 button:hover {
   color: #fff;
-  background-color: #e50914;
+  background-color: #4e4c4c7d;
 }
 
 /* General Layout */
@@ -46,7 +51,7 @@ section {
 
 header {
   background-color: #9590907d; /* Slightly darker header */
-  color: #fff;
+  color: #131313;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -55,8 +60,10 @@ header {
 }
 
 header .logo {
-  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: #000000;
 }
 
 nav ul {
@@ -67,16 +74,19 @@ nav ul {
 
 nav ul li a {
   font-size: 1.1rem;
-  color: #f5f5f5;
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav ul li a:hover {
   color: #f2f0ea;
   font-weight: 700;
+  border-radius: 0.7rem;
+
 }
 
 nav ul li a.active {
-  color: #e50914;
+  color: #0e0e0e;
   font-weight: 700;
   flex-wrap: wrap-reverse;
 }
@@ -95,13 +105,13 @@ button {
 button:hover {
   background-color: #f4b60c;
   color: #fff;
-  border-color: #e50914;
+  border-color: #908888;
 }
 
 /* Footer */
 .footer {
   background-color: #9590907d;
-  color: #f5f5f5;
+  color: #000000;
   padding: 1.5rem 0;
   text-align: center;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
@@ -115,7 +125,7 @@ button:hover {
 }
 
 .social-links a {
-  color: #f5f5f5;
+  color: #000000;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
@@ -124,12 +134,22 @@ button:hover {
 
 .social-links a:hover {
   color: #f9f9f8;
+  border-radius: 0.7rem;
 }
 
 .social-links i {
   font-size: 1.8rem;
 }
 
+/* PortfolioSection.css */
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: #131313;
+  margin: 1rem;
+  box-shadow: #333;
+}
 /* Form Styles */
 .contact-form {
   max-width: 600px;
@@ -181,7 +201,7 @@ textarea {
 
 .submit-button {
   padding: 0.75rem 1.5rem;
-  background-color: #e50914;
+  background-color: #333;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -191,7 +211,7 @@ textarea {
 }
 
 .submit-button:hover {
-  background-color: #b20710;
+  background-color: #484ec0;
 }
 
 /* Resume Styles */
@@ -205,7 +225,7 @@ textarea {
   display: inline-block;
   margin-bottom: 1.5rem;
   padding: 0.75rem 1.5rem;
-  background-color: #e50914;
+  background-color: #333;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -214,7 +234,7 @@ textarea {
 }
 
 .resume-download:hover {
-  background-color: #b20710;
+  background-color: #484ec0;
 }
 
 .proficiencies-list {
