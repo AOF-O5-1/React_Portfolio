@@ -18,7 +18,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
 
-    // Clear error for the field when user starts typing
+    
     setErrors({ ...errors, [name]: '' });
   };
 

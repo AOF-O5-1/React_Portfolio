@@ -17,8 +17,8 @@ const Resume = () => {
       <h2>Resume</h2>
       <div className="resume-content">
         <a
-          href="path_to_your_resume.pdf" // Replace with the actual path to your resume
-          download="Your_Name_Resume.pdf"
+          href="public\Resume.docx" 
+          download="public\Resume.docx"
           className="resume-download"
         >
           Download My Resume
