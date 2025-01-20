@@ -17,8 +17,8 @@ const Resume = () => {
       <h2>Resume</h2>
       <div className="resume-content">
         <a
-          href="public\Resume.docx" 
-          download="public\Resume.docx"
+          href="/Resume.docx" 
+          download="/Resume.docx"
           className="resume-download"
         >
           Download My Resume
